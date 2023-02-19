@@ -1,12 +1,12 @@
 # Examen1_JoseHernandez_61811120
 
-yml
+yaml
 version: '3.8'
 services:
   db:
     image: mcr.microsoft.com/mssql/server:2019-latest
     environment:
-      SA_PASSWORD: <strong-password>
+      SA_PASSWORD: <Control123>
       ACCEPT_EULA: Y
       MSSQL_PID: Developer
     ports:
